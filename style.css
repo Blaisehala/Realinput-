@@ -1,0 +1,18 @@
+
+.container{
+  height: 1000px;
+  background-color: aquamarine;
+  background-image: url(./images/studio.jpg);
+  background-size:cover;
+}
+
+
+.holding{
+  width: 400px;
+  height:300px;
+  background-color: azure;
+}
+
+input .rrr{
+  width: 200px;
+}
