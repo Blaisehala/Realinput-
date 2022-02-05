@@ -26,12 +26,12 @@ font-size: 20px;
 
 
 .container {
-  height: 1000px;
+  height: 2000px;
   /* background-color: aqua */
   background-image: url(./images/studio.jpg);
   background-size: cover;
   width: 1828px;
-  height: 1600px;
+  height: 2000px;
   background-position: 0px 320px;
   background-repeat: no-repeat;
   
@@ -69,6 +69,18 @@ font-size: 20px;
   position: relative;
   left:40%;
   top: 580px;
+
+}
+
+
+.holding4 {
+  width: 400px;
+  height: 300px;
+  background-color: azure;
+  position: relative;
+  left:40%;
+  top: 690px;
+
 
 }
 
