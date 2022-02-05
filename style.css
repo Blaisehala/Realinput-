@@ -1,18 +1,39 @@
+* {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
 
-.container{
-  height: 1000px;
-  background-color: aquamarine;
-  background-image: url(./images/studio.jpg);
-  background-size:cover;
+.quiz {
+
+  float: right;
 }
 
 
-.holding{
+h1{
+  margin-left: 100px;
+  /* margin-top: 100px; */
+}
+.container {
+  height: 1000px;
+  /* background-color: aqua */
+  background-image: url(./images/studio.jpg);
+  background-size: cover;
+  width: 1828px;
+  height: 1600px;
+  background-position: 0px 320px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.holding {
   width: 400px;
-  height:300px;
+  height: 300px;
   background-color: azure;
 }
 
-input .rrr{
+input .rrr {
   width: 200px;
 }
