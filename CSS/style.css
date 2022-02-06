@@ -7,14 +7,23 @@
 .container-fluid{
   height: 300px;
 
-background: linear-gradient(50deg, #3e7683 10%,  #fcfeff 80%);
+/* background: linear-gradient(50deg, #3e7683 10%,  #fcfeff 80%); */
 }
 
-
+body{
+  background: linear-gradient(50deg, #3e7683 10%,  #fcfeff 80%);
+}
  
   
+img{
+  width:60%; 
+  height:12rem;
+}
 
-
+.row{
+  display: flex;
+  justify-content: space-between;
+}
 
 .comb{
   font-family:rowdies ;
@@ -38,6 +47,11 @@ background: linear-gradient(50deg, #3e7683 10%,  #fcfeff 80%);
   
 
 
+}
+
+
+.output{
+  background-color: turquoise;
 }
 
 
