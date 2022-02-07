@@ -10,29 +10,30 @@ function writer() {
   var hinga = document.getElementById('results');
   
   if (marker1=='quire'){total+=20};
-  if (marker2=='tricep'){total+=20};
-  if (marker3=='write'){total+=20};
-  if (marker4=='how'){total+=20};
+  if (marker2=='bicep'){total+=20};
+  if (marker3=='tilda'){total+=20};
+  if (marker4=='bosi'){total+=20};
   if (marker5=='kick'){total+=20};
   
-  document.write(total); {
+  document.write ("Your score is " + total) ; {
   
   }
   
-  lap.style.display='none'; // div shouldnt be disayed 
+  signed.style.display='none'; 
   
-  if (total=>80) {
-  hinga.textContent= "passed";
+  if (total>80) {
+  hinga.textContent= "You have passed the Quiz";
   
   }
-  else if (total=>50) {
-  hinga.textContent= "average";
+  else if ((total)=>50) {
+  hinga.textContent= "Your perfomance is average";
   }
   
   else if (total<50) {
-  hinga.textContent= "Try Again";
+  hinga.textContent= "Kindly try Again";
   }
-  }
+ 
+}
   
 
 

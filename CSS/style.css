@@ -43,28 +43,27 @@ img{
   font-weight: bolder;
   border-radius: 20px;
   box-shadow: 4px 5px 5px 10px;
-  margin-top: 20px;
-  
-
-
+  margin-top: 40px;
 }
 
 
-.output{
-  background-color: turquoise;
+
+#results{
+  color: #3e7683;
+  font-size: 30px;
 }
 
 
   /* input[type.radio]{
 
     
-  } */
+  } 
 
 
 
 
 
-/* 
+
   @media screen and (max-width: 1050px){
     .quiz{
       display:none}
