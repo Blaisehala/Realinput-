@@ -1,4 +1,10 @@
+var submitBtn = document.querySelector('#submit');
+submitBtn.addEventListener('click', function(event) {
+  // prevent button default behaviour
+  event.preventDefault();
 
+  writer();
+});
 function writer() {
   var total = 0;
   var marker1 = document.optica.q1.value;
@@ -15,22 +21,19 @@ function writer() {
   if (marker4=='bosi'){total+=20};
   if (marker5=='kick'){total+=20};
   
-  document.write ("Your score is " + total) ; {
+  // document.write ("Your score is " + total) ; {
   
-  }
+  // }
   
-  signed.style.display='none'; 
+  signed.style.display = 'none'; 
   
-  if (total>80) {
-  hinga.textContent= "You have passed the Quiz";
+  if (total >= 80) {
+    hinga.textContent= "You have passed the Quiz";
   
-  }
-  else if ((total)=>50) {
-  hinga.textContent= "Your perfomance is average";
-  }
-  
-  else if (total<50) {
-  hinga.textContent= "Kindly try Again";
+  } else if ( total >=50) {
+    hinga.textContent= "Your perfomance is average";
+  } else if (total<=50) {
+    hinga.textContent= "Your perfomance is  below average.Please try Again.";
   }
  
 }

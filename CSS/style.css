@@ -48,24 +48,19 @@ img{
 
 
 
-#results{
+#results-container{
   color: #3e7683;
-  font-size: 30px;
+  font-size: 60px;
 }
-
-
-  /* input[type.radio]{
-
-    
-  } 
+ 
 
 
 
 
 
 
-  @media screen and (max-width: 1050px){
-    .quiz{
+  @media screen and (max-width: 500px){
+    img{
       display:none}
  
 
