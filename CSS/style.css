@@ -62,6 +62,19 @@ img{
   @media screen and (max-width: 500px){
     img{
       display:none}
+
+      .container{   background: linear-gradient(30deg, #52cad3 40%,  #fcfeff 90%);
+      border-radius: 0px;
+      }
+
+      .The{ 
+        display:none;
+
+      }
+
+    .container-fluid{
+      background-color: #52cad3 ;
+    }
  
 
 
